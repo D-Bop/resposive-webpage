@@ -203,7 +203,9 @@ p {
     padding: 20px auto;
 }
 @media screen and (max-width:762px) {
-    
+    body{
+        overflow-x: hidden;
+    }
     .btn{
         /* visibility: visible; */
         display: block;

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adventure</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./Project01css/project-01.css">
+</head>
+<body>
+    <!-- nav bar -->
+    <nav class="nav-bar">
+        <h1 class="logo">ADVENTURE</h1>
+        <ul class="nav-links">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">Tours</a></li>
+            <li><a href="#">Explore</a></li>
+            <li><a href="#">About</a></li>
+            <li class="ctn"><a  href="#">Contact</a></li>
+        </ul>
+        <button type="button" class="btn">
+            <i class="fa fa-bars"></i>
+        </button>
+    </nav>
+   <header>
+    <div class="header-content">
+        <h2>Explore The Colorful World</h2>
+        <div class="line"></div>
+        <h1>A WONDERFUL GIFT</h1>
+        <a href="#" class="ctn">Learn More</a>
+    </div>
+   </header>
+   <!-- Events -->
+   <section class="events">
+    <div class="title">
+        <h1>Upcoming Events</h1>
+    </div>
+    <div class="line"></div>
+        <div class="row">
+            <div class="col">
+                <img src="./Assets/camptrek.jpeg" alt="Everest Camp Trek" height="260px" width="500px">
+                <h4>Everest Camp Trek</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id veniam magni tempore quam earum minus.</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+            <div class="col">
+                <img src="./Assets/walking-holidays.jpeg" alt="walking-holidays" height="260px" width="500px">
+                <h4>Walking Holidays</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id veniam magni tempore quam earum minus.</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+        </div>
+   </section>
+
+   <section class="explore">
+        <div class="explore-content">
+            <h1>Explore The World</h1>
+            <div class="line"></div>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates excepturi voluptate quisquam voluptatem corrupti, possimus veniam magnam a, blanditiis officia hic expedita ipsum. Omnis, voluptatum.</p>
+        <a href="#" class="ctn">Learn More</a>
+        </div>
+   </section>
+
+   <section class="tours">
+        <div class="row">
+            <div class="col content-col">
+                <h1>UPCOMING TOURS & DESTINATION</h1>
+                <div class="line"></div>
+                <P>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error animi, sequi, quo debitis molestiae esse ex facere amet soluta numquam, voluptates minus? Consequatur, architecto. Odio at eos ut praesentium magni.</P>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+            <div class="col image-col">
+                <div class="image-gallery">
+                    <img src="./Assets/camptrek.jpeg" alt="balablu">
+                    <img src="./Assets/camptrek.jpeg" alt="balablu">
+                    <img src="./Assets/camptrek.jpeg" alt="balablu">
+                    <img src="./Assets/camptrek.jpeg" alt="balablu">
+                </div>
+            </div>
+        </div>
+   </section>
+   <section class="footer">
+        <p></p>N0 7 Benjamin Oteri street, Behind Mobil Filling Station, Kubwa Abuja. | Phone: 07036820374 | Email: Boptech@gmail.com</p>
+        <p>copyright &copy; 2023 Bop Tech</p>
+   </section>
+   <script>
+    const btn = document.querySelector('.btn')
+    const navlinks = document.querySelector('.nav-links')
+
+    btn.addEventListener('click', () => {
+        navlinks.classList.toggle('mobile-btn')
+    })
+   </script>
+</body>
+</html>

@@ -248,7 +248,7 @@ p {
         margin: 20px auto;
     }
     .col img {
-        max-width: 30px;
+        max-width: 90% ;
     }
     /* explore */
     .explore-content {
